@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-xs-3">
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills nav-stacked" role="tablist">
+            {{#each tabs}}
+                <li role="presentation"><a href="#{{@key}}" role="tab" data-toggle="pill" id="tab_{{@key}}">{{this}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="col-xs-9">
+        <!-- Tab panes -->
+        <div class="tab-content">
+            {{#each tabs}}
+                <div role="tabpanel" class="tab-pane active" id="{{@key}}"></div>
+            {{/each}}
+        </div>
+
+    </div>
+</div>

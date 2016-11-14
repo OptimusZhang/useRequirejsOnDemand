@@ -1,0 +1,15 @@
+{
+  "name": "userequirejsondemand",
+  "version": "1.0.0",
+  "description": "test requirejs on-demand env",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "requirejs",
+    "ondemand"
+  ],
+  "author": "jianwu zhang",
+  "license": "ISC"
+}
